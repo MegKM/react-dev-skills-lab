@@ -1,0 +1,23 @@
+.skillList {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 3px solid rgb(241, 173, 46);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5%;
+    width: 25vw;
+    align-self: center;
+}
+
+.skillList div {
+    border-radius: 25%;
+    margin: 5px;
+    padding: 0 10px;
+    background-color: rgb(16, 160, 105);
+    color: white;
+    justify-self: end;
+}
+
+.skillsContainer {
+    align-self: center;
+}

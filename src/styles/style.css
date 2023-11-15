@@ -1,0 +1,16 @@
+.App {
+  font-family: sans-serif;
+  color: rgb(16, 160, 105);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  grid-column: 2;
+  display: flex;
+  flex-direction: column;
+}
